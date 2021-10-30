@@ -48,7 +48,7 @@ with row1_1:
 
 with row1_2:
     # st.image('logo.png')
-    st.title("redicting The Penguin Species")
+    st.title("Predicting The Penguin Species")
     st.markdown("<h2>A Famous Machine Learning Project (Practical Project for Students)</h2>", unsafe_allow_html=True)
 
 # first row second column
