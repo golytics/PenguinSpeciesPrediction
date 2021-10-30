@@ -66,7 +66,7 @@ with row1_3:
 st.write("""We have 3 types as shown in the below image""")
 
 images_list=['Adelie.jpg', 'Chinstrap.jpg', 'Gentoo.jpg']
-indices_on_page=['Adelie', 'Chinstrap', 'gentoo']
+indices_on_page=['Adelie', 'Chinstrap', 'Gentoo']
 st.image(images_list, width=200, caption=indices_on_page)
 
 
