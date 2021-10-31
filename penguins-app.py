@@ -72,7 +72,6 @@ st.image(images_list, width=200, caption=indices_on_page)
 
 
 st.write("""
-# Predicting The Penguin Species
 This app predicts the **Penguin** species!
 
 Data Source: [palmerpenguins library](https://github.com/allisonhorst/palmerpenguins) in R by Allison Horst.
