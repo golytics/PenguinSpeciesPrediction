@@ -63,19 +63,20 @@ with row1_3:
 
 
 
-st.write("""We have 3 types as shown in the below image""")
 
-images_list=['Adelie.jpg', 'Chinstrap.jpg', 'Gentoo.jpg']
-indices_on_page=['Adelie', 'Chinstrap', 'Gentoo']
-st.image(images_list, width=200, caption=indices_on_page)
 
 
 
 st.write("""
 This app predicts the **Penguin** species!
-
-Data Source: [palmerpenguins library](https://github.com/allisonhorst/palmerpenguins) in R by Allison Horst.
 """)
+
+
+st.write("""We have 3 types as shown in the below image""")
+
+images_list=['Adelie.jpg', 'Chinstrap.jpg', 'Gentoo.jpg']
+indices_on_page=['Adelie', 'Chinstrap', 'Gentoo']
+st.image(images_list, width=200, caption=indices_on_page)
 
 st.subheader('How to use the model?')
 ''' 
